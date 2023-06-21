@@ -6,12 +6,12 @@ Optoro Bulq Inventory QA Tests
 
 This is a project encompassing Bulq inventory. It includes features for searching for lot listings, 
 adding lots to your watch list and removing them, adding them to your cart, and checking if a user is verified
-or not during checkout
+or not during checkout.
 
 ## Disclaimer
 
 ⚠️ Please note that this project is currently not fully operational or complete. This is not running on a QA or Staging environment
-The browser encounters bot detection when tests are run, even in headless mode
+The browser encounters bot detection when tests are run, even in headless mode.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -80,4 +80,4 @@ The browser encounters bot detection when tests are run, even in headless mode
  - Submit a pull requst with descriptive information on what you changed
 
 
-Thank you
+## Thank you
