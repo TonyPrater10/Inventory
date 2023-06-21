@@ -20,7 +20,7 @@ When(/^I refresh the page"$/) do
   refresh
 end
 
-Then("the user icon should not contain the text {text}") do |text|
+Then(/^the user icon should not contain the text "([^"]*)"$/) do |text|
   user_icon = find(".header-nav-link--account.dropdown-toggle")
   expect(user_icon).not_to have_content(text)
 end

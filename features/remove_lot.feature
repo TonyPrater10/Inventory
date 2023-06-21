@@ -10,7 +10,4 @@ Feature: Remove Watched Lot
     When I remove a product from the watch list
     And I refresh the page
     Then the user icon should not contain the text "Sign Up"
-    Then The watch list page should show a "<expected_message>" message
-    Example:
-      | expected_message                   |
-      | Your Watch List is empty right now |
+    Then The watch list page should show a "Your Watch List is empty right now" message
