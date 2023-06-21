@@ -1,4 +1,5 @@
 require '../../support/login_method'
+require '../../support/go_to_watch_list'
 
 World(LoginHelper)
 
