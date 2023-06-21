@@ -10,7 +10,7 @@ or not during checkout.
 
 ## Disclaimer
 
-⚠️ Please note that this project is currently not fully operational or complete. This is not running on a QA or Staging environment
+⚠️ Please note that this project is currently not fully operational or complete. This is not running on a QA or Staging environment.
 The browser encounters bot detection when tests are run, even in headless mode.
 
 ## Table of Contents
