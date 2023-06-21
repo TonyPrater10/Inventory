@@ -18,15 +18,15 @@ When(/^I click the watch button for a random listing with id "([^"]*)"$/) do
   watch_button.click
 end
 
-When("I navigate to the watch list page") do
+When(/^I navigate to my watch list"$/) do
   visit "https://www.bulq.com/account/starred/lots/"
 end
 
-Then("I should be on the watch list page") do
+Then(/^I should be on the watch list page"$/) do
   expect(page).to have_title('BULQ: Watch List')
 end
 
-Then("the lot should be added to my watch list") do
+Then(/^the lot should be added to my watch list$/) do
   add_to_cart_button = find(:css, ".btn-block.ng-isolate-scope")
   expect(add_to_cart_button).to have_selector("[listing-name='#{@random_listing_number}']")
 end

@@ -1,9 +1,4 @@
-Feature: Remove Watched Lot
-  As a logged-in user
-  I want to be able to remove lots from my watch list
-  So that I can keep clear my list
-
-
+Feature: Remove Watched Lot Listing
   Scenario: Remove a Product from Watch List
     Given I am logged-in user on the Bulq Watch List page
     And I have at least one product in my watch list
