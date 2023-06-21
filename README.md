@@ -38,9 +38,9 @@ The browser encounters bot detection when tests are run, even in headless mode
 	```
 
 ## Configuration
-	- Create env variables in an .env file
+- Create env variables in an .env file
 	
-	**Example .env file:**
+**Example .env file:**
 	
 	EMAIL="your_email@example.com"
 	PASSWORD="your_password"
@@ -51,11 +51,11 @@ The browser encounters bot detection when tests are run, even in headless mode
 	WRONG_PASSWORD="wrong_password"
 	UNVERIFIED_EMAIL="unverified_email@example.com"
 	
-	**Replace placeholder values with actual values**
+**Replace placeholder values with actual values**
 	
 	
 	
-	- Configure the env.rb file to run in different browsers
+- Configure the env.rb file to run in different browsers
 
 ## Run Tests
 
