@@ -29,7 +29,7 @@ The browser encounters bot detection when tests are run, even in headless mode.
 
  - Navigate to the project directory
 	```
-	cd Optoro
+	cd Inventory
 	```
 
  - Install dependencies
